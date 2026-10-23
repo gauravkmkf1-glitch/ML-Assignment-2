@@ -1,0 +1,14 @@
+name: ml-assignment-2-olivetti
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - numpy==2.5.4
+      - scikit-learn==1.9.1
+      - pandas==3.1.0
+      - matplotlib==3.11.2
+      - joblib==1.6.0
+      - scipy==1.18.1
+      - Pillow==13.0.0

@@ -1,0 +1,20 @@
+{
+  "selected_by": "clean validation accuracy only",
+  "tie_break": "first row in grid order (shallower depth, then smaller min_samples_leaf)",
+  "params": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "row": {
+    "max_depth": "None",
+    "max_depth_value": null,
+    "min_samples_leaf": 1,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.6,
+    "test_accuracy": 0.5,
+    "leaves": 41,
+    "mean_samples_per_leaf": 5.853658536585366,
+    "singleton_leaf_fraction": 0.024390243902439025,
+    "fit_seconds": 1.3939352000015788
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "selected_by": "clean validation accuracy only",
+  "tie_break": "smallest B among validation ties",
+  "selected_B": 200,
+  "row": {
+    "B": 200,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.925,
+    "test_accuracy": 0.8375,
+    "masked_test_accuracy": 0.7375,
+    "oob_accuracy": 0.8041666666666667,
+    "oob_coverage": 1.0,
+    "mean_distinct": 151.9,
+    "std_distinct": 4.574344009317389,
+    "theoretical_distinct": 151.8931938460841,
+    "pairwise_disagreement_validation": 0.775376256281407,
+    "pairwise_disagreement_test": 0.7849912060301507,
+    "mean_vote_margin_validation": 0.30231250000000004,
+    "mean_vote_margin_test": 0.2820625,
+    "mean_confidence_validation": 0.40893750000000006,
+    "mean_confidence_test": 0.3934375,
+    "mean_confidence_correct_validation": 0.4222297297297297,
+    "train_seconds_serial": 296.72868400002335,
+    "train_seconds_wall_full_200": 33.02663410000241
+  },
+  "B_grid": [
+    1,
+    5,
+    10,
+    25,
+    50,
+    100,
+    200
+  ],
+  "n_estimators_max_fitted": 200
+}

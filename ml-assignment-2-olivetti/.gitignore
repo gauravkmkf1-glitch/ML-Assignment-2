@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Data download cache (the compact cached npz under data/ is tracked)
+data/sklearn_cache/
+
+# LaTeX build products (the PDF is a separate deliverable)
+paper/main.aux
+paper/main.bbl
+paper/main.blg
+paper/main.fdb_latexmk
+paper/main.fls
+paper/main.log
+paper/main.out
+paper/main.pdf
+paper/main.synctex.gz
+paper/build.log
+paper/generated/
+
+# Scratch files
+scratch_*.py
+*.tmp

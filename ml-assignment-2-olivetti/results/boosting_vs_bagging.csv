@@ -1,0 +1,7 @@
+family,n_learners,train_accuracy,validation_accuracy,test_accuracy,train_seconds,actual_rounds,note,wall_seconds
+Bagging,25,1.0,0.825,0.7375,36.0212738999835,25,bootstrap trees; frozen tree setting; serial-equivalent time,15.130672200000845
+Boosting,25,0.5208333333333334,0.2875,0.2875,13.093678600002022,25,SAMME depth 4; selected depth from Q2b,13.093678600002022
+Bagging,50,1.0,0.85,0.7875,71.69831390000763,50,bootstrap trees; frozen tree setting; serial-equivalent time,13.591226299999107
+Boosting,50,0.9708333333333333,0.4375,0.3875,21.175948899996,50,SAMME depth 4; selected depth from Q2b,21.175948899996
+Bagging,100,1.0,0.9,0.8375,146.19174040001963,100,bootstrap trees; frozen tree setting; serial-equivalent time,45.60858400000143
+Boosting,100,0.9958333333333333,0.425,0.375,57.87067519999982,100,SAMME depth 4; selected depth from Q2b,57.87067519999982

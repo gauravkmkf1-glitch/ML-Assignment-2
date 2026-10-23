@@ -1,0 +1,243 @@
+{
+  "selection": "test face where the clean-trained bagging and boosting models disagree on the masked test set; prefer bagging correct / boosting wrong, then the largest boosting confidence",
+  "direction": "bagging_correct_boosting_wrong",
+  "test_position": 35,
+  "dataset_index": 170,
+  "true_identity": 17,
+  "clean": {
+    "tree_prediction": 17,
+    "bag_prediction": 17,
+    "boost_prediction": 17,
+    "tree_confidence": 1.0,
+    "bag_confidence": 0.46,
+    "boost_confidence": 0.16813082648635236
+  },
+  "masked": {
+    "tree_prediction": 13,
+    "bag_prediction": 17,
+    "boost_prediction": 3,
+    "tree_confidence": 1.0,
+    "bag_confidence": 0.245,
+    "boost_confidence": 0.18070789597045192,
+    "bag_vote_counts": [
+      2,
+      2,
+      3,
+      27,
+      0,
+      2,
+      1,
+      7,
+      0,
+      6,
+      0,
+      0,
+      6,
+      26,
+      6,
+      1,
+      0,
+      49,
+      0,
+      0,
+      1,
+      3,
+      5,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      10,
+      0,
+      1,
+      21,
+      0,
+      8,
+      0,
+      1,
+      2,
+      6
+    ],
+    "bag_vote_fractions": [
+      0.01,
+      0.01,
+      0.015,
+      0.135,
+      0.0,
+      0.01,
+      0.005,
+      0.035,
+      0.0,
+      0.03,
+      0.0,
+      0.0,
+      0.03,
+      0.13,
+      0.03,
+      0.005,
+      0.0,
+      0.245,
+      0.0,
+      0.0,
+      0.005,
+      0.015,
+      0.025,
+      0.005,
+      0.005,
+      0.0,
+      0.0,
+      0.005,
+      0.005,
+      0.0,
+      0.05,
+      0.0,
+      0.005,
+      0.105,
+      0.0,
+      0.04,
+      0.0,
+      0.005,
+      0.01,
+      0.03
+    ],
+    "bag_top5": [
+      {
+        "class": 17,
+        "votes": 49
+      },
+      {
+        "class": 3,
+        "votes": 27
+      },
+      {
+        "class": 13,
+        "votes": 26
+      },
+      {
+        "class": 33,
+        "votes": 21
+      },
+      {
+        "class": 30,
+        "votes": 10
+      }
+    ],
+    "boost_scores": [
+      0.01292183439693552,
+      0.05190680778994316,
+      0.07423305224907677,
+      0.18070789597045192,
+      0.057194168426312246,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.019041796227935087,
+      0.0,
+      0.02796121985283245,
+      0.03978086769767541,
+      0.0577059188506557,
+      0.0,
+      0.0,
+      0.06095420072021132,
+      0.14842306069318276,
+      0.0,
+      0.0,
+      0.06222240993514027,
+      0.0,
+      0.0592833290726482,
+      0.0,
+      0.02039251326317987,
+      0.0,
+      0.0,
+      0.019418930252918333,
+      0.021146891430034058,
+      0.0,
+      0.0,
+      0.024070937551749747,
+      0.0,
+      0.0,
+      0.01981340356297731,
+      0.0,
+      0.0,
+      0.020460936276614865,
+      0.0,
+      0.022359825779525066
+    ],
+    "boost_top5": [
+      {
+        "class": 3,
+        "score": 0.18070789597045192
+      },
+      {
+        "class": 17,
+        "score": 0.14842306069318276
+      },
+      {
+        "class": 2,
+        "score": 0.07423305224907677
+      },
+      {
+        "class": 20,
+        "score": 0.06222240993514027
+      },
+      {
+        "class": 16,
+        "score": 0.06095420072021132
+      }
+    ],
+    "bag_disagreement": 0.8876381909547739,
+    "bag_trees_voting_true": 49,
+    "bag_trees_voting_pred": 27,
+    "bag_margin": 0.10999999999999999,
+    "boost_margin": 0.032284835277269164,
+    "boost_true_score": 0.14842306069318276
+  },
+  "clean_bag_disagreement": 0.7612562814070352,
+  "weighting": {
+    "final_weight_max": 0.08718197281604596,
+    "final_weight_mean": 0.004166666666666667,
+    "true_identity_weight_fraction": 0.009730708429157452,
+    "predicted_identity_weight_fraction": 0.00404085410566583,
+    "top_weight_training_faces": [
+      {
+        "train_position": 43,
+        "dataset_index": 79,
+        "true_identity": 7,
+        "final_weight": 0.08718197281604596
+      },
+      {
+        "train_position": 13,
+        "dataset_index": 20,
+        "true_identity": 2,
+        "final_weight": 0.07978070292191279
+      },
+      {
+        "train_position": 30,
+        "dataset_index": 51,
+        "true_identity": 5,
+        "final_weight": 0.07937044023692826
+      },
+      {
+        "train_position": 138,
+        "dataset_index": 230,
+        "true_identity": 23,
+        "final_weight": 0.04884444485597375
+      },
+      {
+        "train_position": 67,
+        "dataset_index": 116,
+        "true_identity": 11,
+        "final_weight": 0.04532105651731065
+      }
+    ]
+  },
+  "feature_importance": {
+    "central_mass_tree": 0.051246737398253694,
+    "central_mass_bagging": 0.07333533503025641,
+    "central_mass_boosting": 0.048245645469097195
+  }
+}

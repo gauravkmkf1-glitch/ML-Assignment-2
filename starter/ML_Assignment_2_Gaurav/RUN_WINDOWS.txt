@@ -1,0 +1,17 @@
+Open this folder in VS Code. In Terminal > New Terminal, run:
+
+py --version
+
+If Python is not installed: install Python 3.12/3.13 from https://www.python.org/downloads/
+and tick "Add python.exe to PATH". Restart VS Code.
+
+Then run:
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m src.run_experiments
+
+If activation is blocked, run this in the same terminal session:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1

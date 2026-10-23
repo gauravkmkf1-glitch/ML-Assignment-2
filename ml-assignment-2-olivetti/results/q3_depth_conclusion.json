@@ -1,0 +1,50 @@
+{
+  "depths": [
+    2,
+    16,
+    "None"
+  ],
+  "labels": [
+    "shallow (2)",
+    "deep finite (16)",
+    "selected / unrestricted (None)"
+  ],
+  "accuracy_gain_bagging": [
+    0.08,
+    0.31833333333333325,
+    0.2737499999999998
+  ],
+  "largest_improvement_depth": 16,
+  "deepest_depth": "None",
+  "deepest_has_largest_improvement": false,
+  "variance_reduction_fraction": [
+    0.7224432195500982,
+    0.9175340420649031,
+    0.962681667667496
+  ],
+  "single_variance": [
+    0.040664742477934994,
+    0.24279607746592016,
+    0.6476111111111112
+  ],
+  "bag_variance": [
+    0.011286774999999999,
+    0.02002241111111111,
+    0.024167766666666667
+  ],
+  "bag_pairwise_disagreement_test": [
+    0.9606802188552186,
+    0.8849892255892257,
+    0.8227208754208755
+  ],
+  "leaves_mean": [
+    3.0,
+    18.566666666666666,
+    40.0
+  ],
+  "singleton_leaf_fraction": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

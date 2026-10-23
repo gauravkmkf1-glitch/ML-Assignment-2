@@ -1,0 +1,21 @@
+# Exact reproduction (Windows PowerShell)
+# Run from the repository root.
+
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
+
+# Full pipeline: split -> experiments -> figures -> CVPR PDF
+python -m src.run_all
+
+# Individual steps (equivalent)
+python -m src.make_split
+python -m src.run_experiments
+python -m src.make_figures
+python -m src.build_report
+
+# Integrity / contract checks
+python -m pytest -q
+python -m src.verify_submission

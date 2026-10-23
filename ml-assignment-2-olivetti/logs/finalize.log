@@ -1,0 +1,4 @@
+2026-10-23 00:29:34 | INFO    | Logging to C:\Users\ACER\Documents\ML Assignment 2\ml-assignment-2-olivetti\logs\finalize.log
+2026-10-23 00:29:34 | INFO    | final_table.csv includes confidence columns
+2026-10-23 00:29:34 | INFO    | boosting_vs_bagging.csv uses serial-equivalent bagging times
+2026-10-23 00:29:34 | INFO    | Refreshed derived tables and artifact manifests

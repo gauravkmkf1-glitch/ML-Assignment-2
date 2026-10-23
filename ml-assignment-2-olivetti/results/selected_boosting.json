@@ -1,0 +1,41 @@
+{
+  "selected_by": "clean validation accuracy only",
+  "tie_break": "first row in grid order (shallower depth, then fewer requested rounds)",
+  "selected": {
+    "max_depth": 4,
+    "n_estimators_requested": 50,
+    "n_estimators_fitted": 50,
+    "stop_reason": "requested number of rounds completed"
+  },
+  "row": {
+    "depth": 4,
+    "requested_rounds": 50,
+    "actual_rounds": 50,
+    "train_accuracy": 0.9708333333333333,
+    "validation_accuracy": 0.4375,
+    "test_accuracy": 0.3875,
+    "train_seconds": 25.200449200005096,
+    "first_weighted_error": 0.8499999999999999,
+    "last_weighted_error": 0.6142997801316323,
+    "last_alpha": 3.1981390311409887,
+    "last_max_weight": 0.08718197281604596,
+    "last_top10_weight": 0.44807918996810686,
+    "central_feature_importance_mass": 0.048245645469097195,
+    "stop_reason": "requested number of rounds completed"
+  },
+  "grid": {
+    "max_depth": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_estimators": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "epsilon": 1e-12
+  }
+}
